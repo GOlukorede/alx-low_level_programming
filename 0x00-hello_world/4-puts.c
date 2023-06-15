@@ -1,9 +1,12 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
- *Program that prints something
+ * My first C program
+ *
+ * Program that prints a meaasage on programming
  */
-int main(void) 
+int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
-		return (0);
+	return (0);
 }
+
