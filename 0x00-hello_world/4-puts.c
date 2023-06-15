@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * Program that prints something
+ *Program that prints something
  */
 int main(void) 
 {
