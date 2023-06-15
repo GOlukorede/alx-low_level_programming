@@ -1,8 +1,8 @@
 #include<stdio.h>
 /**
- * My first C program
+ * main - Entry point
  *
- * Program that prints a meaasage on programming
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
