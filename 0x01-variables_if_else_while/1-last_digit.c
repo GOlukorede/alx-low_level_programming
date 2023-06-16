@@ -6,7 +6,7 @@
  * main - Print last didgit of a random number
  *
  * Return: Always 0 (success)
- * /
+ */
 int main(void)
 {
 	int n;
