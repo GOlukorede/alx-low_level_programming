@@ -18,6 +18,10 @@ if (!temp)
 temp->n = n;
 temp->prev = NULL;
 temp->next = *head;
+if (*head != NULL)
+{
+(*head)->prev = temp;
+}
 *head = temp;
 
 return (temp);
