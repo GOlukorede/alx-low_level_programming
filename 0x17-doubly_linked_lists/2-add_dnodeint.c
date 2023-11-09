@@ -10,7 +10,7 @@
 
 dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
-dlistint_t *temp
+dlistint_t *temp;
 temp = (dlistint_t *)malloc(sizeof(dlistint_t));
 
 if (!temp)
