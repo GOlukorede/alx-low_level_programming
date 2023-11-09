@@ -14,7 +14,7 @@ dlistint_t *temp;
 temp = (dlistint_t *)malloc(sizeof(dlistint_t));
 
 if (!temp)
-return (NULL);
+	return (NULL);
 temp->n = n;
 temp->prev = NULL;
 temp->next = *head;
