@@ -1,20 +1,21 @@
 #include "lists.h"
 
 /**
- * dlistint_len - Count number of elements in a list
- * @h: node
- *
- * Return: Number of nodes
+ * dlistint_len- prints the number of elements in a linked listint_t list
+ * @h: pointer to a list
+ * Return: the number of nodes printed
  */
 
 size_t dlistint_len(const dlistint_t *h)
 {
-size_t sum = 0;
-while (h != NULL)
-{
-sum += 1;
-h = h->next;
-}
-printf("%lu elements\n", sum);
-return (sum);
+	size_t count;
+	const dlistint_t *current = h;
+
+	count = 0;
+	while (current != NULL)
+	{
+		current = current->next;
+		count += 1;
+	}
+	return (count);
 }
